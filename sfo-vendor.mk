@@ -19,12 +19,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/smartisan/sfo/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/smartisan/sfo/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/smartisan/sfo/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/smartisan/sfo/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/smartisan/sfo/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/smartisan/sfo/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/smartisan/sfo/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/smartisan/sfo/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/smartisan/sfo/proprietary/bin/radish:system/bin/radish \
     vendor/smartisan/sfo/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/smartisan/sfo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -90,14 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/smartisan/sfo/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/smartisan/sfo/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0083_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0083_Generic_I2C_NCD_Unsigned_configdata.ncd \
-    vendor/smartisan/sfo/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
@@ -105,20 +96,14 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libchromatix_ov5648_common.so:system/vendor/lib/libchromatix_ov5648_common.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libchromatix_ov5648_default_video.so:system/vendor/lib/libchromatix_ov5648_default_video.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libchromatix_ov5648_preview.so:system/vendor/lib/libchromatix_ov5648_preview.so \
@@ -126,24 +111,16 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/lib/libchromatix_ov5648_zsl.so:system/vendor/lib/libchromatix_ov5648_zsl.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
@@ -171,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -183,15 +159,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
@@ -213,3 +184,33 @@ PRODUCT_PACKAGES += \
     TimeService \
     qcrilmsgtunnel \
     shutdownlistener
+PRODUCT_COPY_FILES += \
+    vendor/smartisan/sfo/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/smartisan/sfo/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/smartisan/sfo/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/smartisan/sfo/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so
